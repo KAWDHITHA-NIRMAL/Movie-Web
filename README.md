@@ -1,6 +1,10 @@
 # 🎬 Movie Night: Watch Together
 
-![Movie Night Logo](/logo/Movie%20Night.png)
+<p align="center">
+  <a href="https://movienight.kawwa.site">
+    <img src="/logo/Movie%20Night.png" alt="Movie Night Logo" width="300">
+  </a>
+</p>
 
 Movie Night is a real-time collaborative movie-watching platform that allows you and your friends to sync video playback, chat, and react together, no matter where you are. Built with modern web technologies and powered by Firebase, it offers a seamless and interactive experience for shared entertainment.
 
