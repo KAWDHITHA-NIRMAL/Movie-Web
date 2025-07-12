@@ -1,6 +1,6 @@
 # 🎬 Movie Night: Watch Together
 
-![Movie Night Logo](/public/images/Life%20Logo.png)
+![Movie Night Logo](/logo/Movie%20Night.png)
 
 Movie Night is a real-time collaborative movie-watching platform that allows you and your friends to sync video playback, chat, and react together, no matter where you are. Built with modern web technologies and powered by Firebase, it offers a seamless and interactive experience for shared entertainment.
 
@@ -24,39 +24,13 @@ Movie Night is a real-time collaborative movie-watching platform that allows you
 
 ## 🚀 Getting Started
 
-To run this project locally, you'll need to set up a Firebase project and configure its services.
+To run this project, you'll need to set up a Firebase project and configure its services.
 
-1.  **Clone the repository:**
-    \`\`\`bash
-    git clone <your-repo-url>
-    cd movie-night
-    \`\`\`
-2.  **Set up Firebase:**
-    *   Go to the [Firebase Console](https://console.firebase.google.com/).
-    *   Create a new project.
-    *   Add a web app to your Firebase project.
-    *   Copy your Firebase configuration object (apiKey, authDomain, projectId, etc.).
-    *   Update the `firebaseConfig` object in `login.html`, `register.html`, and `index.html`, and `room.html` with your project's details.
-    *   **Enable Firebase services:**
-        *   **Authentication:** Go to "Authentication" -> "Sign-in method" and enable "Email/Password".
-        *   **Firestore Database:** Create a Firestore database in "production mode".
-        *   **Realtime Database:** Create a Realtime Database.
-    *   **Deploy Firestore Security Rules:** Copy the content from `firestore.rules` into your Firestore "Rules" tab and publish.
-    *   **Deploy Realtime Database Rules:** Copy the content from `database.rules.json` into your Realtime Database "Rules" tab and publish.
-    *   **Create Firestore Composite Index:** For the "My Rooms" section to load efficiently, you might need a composite index for `rooms` collection on `creator.uid` (Ascending) and `createdAt` (Descending). Firebase will usually suggest this in the console if needed.
-
-3.  **Run the application:**
-    Since this is a client-side application with HTML, CSS, and JavaScript, you can simply open the `login.html` file in your web browser. For a more robust local development experience, you can use a simple local web server (e.g., `npx serve` or Python's `http.server`).
-
-    \`\`\`bash
-    # Using npx serve (if you have Node.js installed)
-    npx serve .
-    \`\`\`
-    Then, open your browser to `http://localhost:3000/login.html` (or the port `serve` indicates).
 
 ## 🎥 Demo
 
-![Movie Night GIF](/public/images/movie.gif)
+[![Movie Night GIF](/logo/movie.gif)](https://movienight.kawwa.site)
+
 
 ## 🤝 Contribution
 
