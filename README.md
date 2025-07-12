@@ -33,6 +33,10 @@ To run this project, you'll need to set up a Firebase project and configure its 
 
 ## 🎥 Demo
 
+```
+https://movienight.kawwa.site
+```
+
 [![Movie Night GIF](/logo/movie.gif)](https://movienight.kawwa.site)
 
 
