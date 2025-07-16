@@ -45,6 +45,7 @@ https://movienight.kawwa.site
 This project is open-source and created for the community. Feel free to fork, contribute, and improve!
 
 ---
+<img src="https://telegram-card-green.vercel.app/?itz_me_nirmaldeve=𝗜𝗧𝗭 𝗠𝗘 𝗡𝗜𝗥𝗠𝗔𝗟 ┃🇱🇰" alt="@itz_me_nirmaldev" style="width: 300px; max-width: 100%; height: auto;" />
 
 **Developed By Kawdhitha Nirmal And Member Of Cyber Yakku TM**
 **Created For Community**
